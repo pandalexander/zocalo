@@ -1,0 +1,38 @@
+/* 
+COLORS:
+
+YELLOW: DAB96F
+WHITE: EFEFE5
+GREEN: 82AC97
+TAN: E2D7B6
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Buda:wght@300&family=Flamenco:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Buda", serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #e2d7b6;
+}
+
+/* .buda-light {
+  font-family: "Buda", serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+
+.flamenco-regular {
+  font-family: "Flamenco", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flamenco-light {
+  font-family: "Flamenco", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
