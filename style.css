@@ -5,25 +5,22 @@ YELLOW: DAB96F
 WHITE: EFEFE5
 GREEN: 82AC97
 TAN: E2D7B6
+WHITE: FFFFFF
+
+Tan I like: f3ede1
+Orange I like: e56e0d
+Red I like: bb4b37
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Buda:wght@300&family=Flamenco:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
+.buda-light {
   font-family: "Buda", serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #e2d7b6;
 }
-
-/* .buda-light {
-  font-family: "Buda", serif;
-  font-weight: 300;
-  font-style: normal;
-} */
 
 .flamenco-regular {
   font-family: "Flamenco", system-ui;
@@ -35,4 +32,61 @@ TAN: E2D7B6
   font-family: "Flamenco", system-ui;
   font-weight: 300;
   font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+  background-color: #f3ede1;
+
+  font-family: "Buda", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#body-container {
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #dab96f;
+}
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  font-style: normal;
+  color: #82ac97;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: normal;
+  color: #dab96f;
+}
+
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: "Buda", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
 }
