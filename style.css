@@ -44,7 +44,7 @@ Red I like: bb4b37
   margin: 0;
   padding: 0;
   font-size: 1.1em;
-  background-color: #f3ede1;
+  background-color: #e2d7b6;
 
   font-family: "Buda", serif;
   font-weight: 300;
@@ -55,29 +55,46 @@ Red I like: bb4b37
   padding: 1rem;
 }
 
+.hidden-seo {
+  display: none;
+}
+
 h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 3em;
   font-weight: bold;
   color: #dab96f;
+  text-align: center;
 }
+
 h2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2em;
-  font-weight: normal;
-  font-style: normal;
+  font-size: 3em;
+  font-weight: bold;
   color: #82ac97;
+  text-align: center;
+  margin: 2rem auto 2rem auto;
 }
 
 h3 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 2em;
+  font-weight: normal;
   font-style: normal;
   color: #dab96f;
+  margin: 1rem auto 1rem auto;
 }
 
 h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: normal;
+  color: #82ac97;
+  margin: 1rem auto 1rem auto;
+}
+
+h5 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 1em;
   font-weight: normal;
@@ -89,4 +106,26 @@ p {
   font-weight: 300;
   font-style: normal;
   font-size: 1em;
+}
+
+#header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+#main-logo {
+  background-color: black;
+  padding: 0.5em;
+  height: 2.5rem; /* Adjust height as needed */
+}
+
+#hamburger-menu {
+  height: 2rem;
+  margin-right: 5px;
+}
+
+#tacos-truck {
+  width: 100%;
 }
